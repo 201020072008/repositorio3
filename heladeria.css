@@ -1,0 +1,138 @@
+body {
+  margin: 0;
+  font-family: 'Baloo 2', cursive;
+  background-color: #fff5f5;
+  scroll-behavior: smooth;
+}
+
+header {
+  background: linear-gradient(to right, #fcb0b3, #ffc2d1);
+  padding: 15px 0;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.15);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.dropdown-menu {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  position: relative;
+}
+
+.menu li {
+  position: relative;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #5c2a2a;
+  padding: 12px 20px;
+  font-weight: bold;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.menu a:hover {
+  background-color: #ffe0e9;
+}
+
+/* Submenús */
+.submenu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #ffe5f0;
+  list-style: none;
+  padding: 0;
+  min-width: 180px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  border-radius: 8px;
+  z-index: 1000;
+}
+
+.submenu li {
+  position: relative;
+}
+
+.submenu a {
+  padding: 10px 16px;
+  color: #5c2a2a;
+  display: block;
+}
+
+.has-submenu:hover > .submenu {
+  display: block;
+}
+
+.submenu .submenu {
+  left: 100%;
+  top: 0;
+}
+
+/* Secciones */
+.seccion {
+  max-width: 850px;
+  margin: 50px auto;
+  padding: 25px;
+  background-color: #fffafa;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  text-align: center;
+}
+
+.seccion h2 {
+  color: #cc3366;
+  margin-bottom: 15px;
+}
+
+.sabor {
+  max-width: 650px;
+  margin: 40px auto;
+  text-align: center;
+}
+
+.sabor h3 {
+  color: #b3245a;
+  margin-bottom: 10px;
+}
+
+.sabor img {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 12px;
+  margin-bottom: 15px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.sabor p {
+  font-size: 1.1rem;
+  color: #4e2d2d;
+  padding: 0 20px;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+ul li {
+  margin-bottom: 8px;
+  color: #5c2a2a;
+}
+
+a {
+  color: #d94f8c;
+  text-decoration: none;
+}

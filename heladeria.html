@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Yogufrut – Sabores y Dulzura</title>
+  <link rel="stylesheet" href="heladeria.css">
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+2&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <header>
+    <nav class="dropdown-menu">
+      <ul class="menu">
+        <li><a href="#inicio">Inicio</a></li>
+        <li class="has-submenu">
+          <a href="#sabores">Sabores</a>
+          <ul class="submenu">
+            <li class="has-submenu">
+              <a href="#">Tradicionales</a>
+              <ul class="submenu">
+                <li><a href="#vainilla">Vainilla Cremosa</a></li>
+                <li><a href="#chocolate">Chocolate Intenso</a></li>
+              </ul>
+            </li>
+            <li class="has-submenu">
+              <a href="#">Frutales</a>
+              <ul class="submenu">
+                <li><a href="#mango">Mango Tropical</a></li>
+                <li><a href="#fresa">Fresa Natural</a></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li><a href="#promociones">Promociones</a></li>
+        <li><a href="#nosotros">Nosotros</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="inicio" class="seccion bienvenida">
+      <h1>Bienvenidos a Yogufrut</h1>
+      <p>Helados con amor, fruta fresca y mucha dulzura. ¡Explora nuestros sabores únicos!</p>
+    </section>
+
+    <section id="sabores" class="seccion">
+      <h2>Nuestros Sabores</h2>
+      <p>Una explosión de sabor en cada cucharada 🍨</p>
+    </section>
+
+    <section id="vainilla" class="sabor">
+      <h3>Vainilla Cremosa</h3>
+      <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEABsbGxscGx4hIR4qLSgtKj04MzM4PV1CR0JHQl2NWGdYWGdYjX2Xe3N7l33gsJycsOD/2c7Z//////////////8BGxsbGxwbHiEhHiotKC0qPTgzMzg9XUJHQkdCXY1YZ1hYZ1iNfZd7c3uXfeCwnJyw4P/Zztn////////////////CABEIANMBHAMBIgACEQEDEQH/xAAaAAACAwEBAAAAAAAAAAAAAAACAwABBAUG/9oACAEBAAAAAOurMlYiNVW3r1za6XK4Grd18nn0Ft6m0pJQhqVlQA0NuczTjSrafnj2eiLhcYOnuY+5IIbVZMq6mvqulCuuVs1cjLXp3YPKK7XUyVDc2g1CjKidTZQ1Kqkc+zbzu8/j+Yv027n4b6WwgDTSlBvZQ0NSDl86nT3OeR8rH0/WL4nP6HXOqF9KrQ0REKshrN5rPo06kpyjt9Dj4ZdzdcqMEHaFiAypUpPnUE7SpAsbEBv6zghmQTSQBQhLlweJz2sve1dMMmNmDAOnoa5WmxUsZQ3UmHivSXo9IRkkrlccLLZ6G6fdACFQV0vOhg56vqdYTKXi88urjPV1GiMG82dY30svPVjoSPvuY6VxOXcq3emmi1oBJGekoMGs/Jwrnb23bE+fRJOj2NLapY407MnUOhCQYvBxw9E85ebz0Ga/QHpiiXS2K0ENVAkqojJvO7q+Hgqd7dHFncoH4S3BFXBklyqqyu6RwUF6N8baIcy8j0RLJQFJLu5FwiuBzeSHotg05BMRzcnpaVQypcIrKABy7Hkhzu9uEM712POV6EQoIJGDSK5QCyrDhbT0aQUrRkJnNR31wREo0HQylCMlY+F6HbIDsykJ1ZuX3nppJxl22NohpKjycxnfdFiXIZWfdnwaOmqBDZTTtkIRxYwys7zToV53Z8ebesM3RIbU02kcYJUvmZ1dHp1ZQE50TRSmIrJtlMjLY6jVaMit20xG5ac9JSAnpdLzbUAlsO5CI3HJBqSY0uQpdVIRmw2FLuyKS7kkG5AwK2ISuqkKyIjIiK7K7u5cGrGKxTYhILksruyMiIisrkOWEqhpWJn/xAAYAQADAQEAAAAAAAAAAAAAAAAAAQIDBP/aAAoCAhADEAAAAObpy1AHNxUTdRvmhoGUgCaiufdO89ck0JybTSaTQwMdMNO3nmpTJpAIeSel0nID59oJrt5wgi00ABklpbpqWGGs2Lv5UQZaTQIUOLgqdk7SaulD7OWHjpNCZUiJFUzZoiNaQI6Oaams6DbNNNAEjVNK5oFO+UUzG98wljQDAh2mledCqWgits0000NMalg1RNZu5TYi5QNNDTQJps1hGGm0RQA0AIGDSAHpDSeOnTkKXLGhNAMAKmkA5eOvVzsAEJggAAAAGTWGvVzsAEAmCAAABjIrHT//xAAxEAACAgEEAgEDAwQBBAMAAAABAgARAwQSITEQQVETICIUMmFScYGRIwUVobEwMzT/2gAIAQEAAT8AMaPCYfB+3RBGcq0OLGsCiazCLsTBjTiBFqa/TjYSIIhqYSXYCJgWpqdKCpImRCCfCmYsjCYssV7+4+DGjww+DDER3NKpMGj1DH9lT/tuX+sRNBmxMHVwTMj51A/C4dZluhiaZsupYcpMep2HkRNWx6WZnZsZ/GNjpzxAJpWCvMQ3CPiDCavS1ZEZIBzMGLdBhoRDUu5f2VCIRGEyKY1+aJIAFkzFoc2Q/l+ImHTpgWl8X5IHwIVBFVM2mK5d22xMIT0IQCKqanTgNYEbCQJp1vKBMIpPGqAozKfyaXNCQRKFR/xafVAgyQPcUXNsKwr4IjpHxw44unyPexbmm0i4fybl/Nw+O/OVwo5mTW48RNDmLrrQsRMWf9SSI2Pif/XmBmDMCsORQJrdQApjsSTMSs7AAcmaTSHGIylRM/cd+ZjZmMxY4q14MPgxoRNm40BMOL6SV5MuEzcJbHoeLM1J/GZhuczC5/JCZjyvjIdTXzFzJlS1Mz3umLK6TJqnqZsjOeTCJ/01AcsQCpqCAsz5IWszSpEWvuMM2zFi28+4fFw8SxOIDXQm6d+NQoOMxx+ZhBRwYOuZgyHFHO4AzdHeNzAs0xOJw0x6lSvc1WrHQMfMXaYxZE04oCA/cxgiLZ8E+LA6h2++TNo79+oTXUswX2f9S74h4HEchVNzOluWBjDcD8xDYUeEa0jgwoZsMVYKhYjqP9RvUTBkJ6mHA9zElCE1DkAn1hA4Mvw0ETgSzD3NvNlp77honnuMwWKx9jmVZswyxLjUe5q0CvcF3Bi9k8VwBGZca1tQkzHnUXuqroATBgOTGrstXzP0o+I2lWDSiDSj4n6UfEGlX4g06wYgIxCiZtQBG1Bgzn5mPUGLlBEErwn7R4JsQwmbpdQt79wMfibhLEJHd0JuB+DNVjBBMYU1+plZVUKoA/GDFkynd6JoX7i4wSAa/v3UxNgx4kQZRQFShCAYFEoeKlRjQmq1FcAx3LHyrERMxCweDBwBLnFHwVVhDjYWauFqm6FmM+pU+rGyXwKv0DN2RUZgxHsxchKOWY3fsxHxlSp5U9giLjw8s7DatACPmxk8YR0RdzFkXHbcX6E/UgmwSJodaSwxv76MtT7lxTf2anLsUzI5ckypXkHxcMU2sJM3QsKm8KOYjbgbMzAhvxUm4d39Lf6hd/6T/qbMz9Ymg0mqbtaETAmNAqpfyZm0e4HYm3jnmZNBqKACWJl0+oFA46odwqDSJZa+/UKNRFVt4JiqB6LH1UG66KNZMqzfImJt+NW+RBFaoDfhjQmtyWa+0RcLkXUuLjZj/EXGo8MKhMJjGK5WfUERy52rFQ+4QB6hN+L48E0RMuDDk5ZB/cTPpXxAkAOpgFCuIcjuBfHN9cEzebG4CuOvc0RvAOK5MHgcQGZnoGZm3Oft0ukLctFwKBMaCrI8FgBLBmQlRGxgixxMtoaMB3MqjsmNplA/eYuJ8mUop4HbTHjXEtD/ACZcuiIwA5HcRtzN8iH+PcMEb9s/FgRM+jBO7GACPUbEVrGwIs8ioAOMdmt9TT4Thwol2RBKleNTjLISsa7P2aXD9R7mNAgEvwejAQwowUI7dCM38xE+r+R4ETHixftWZHLfivJPUx41xrtH+TCeICSohIPPxCTtJnCmAnm43AHz5AC9Cp3zM2BMwphMOix4spZuaNrBUEH2a/CEyBh0fI7qaTHtQeUN2YDZqMNuS779Q9TcZiUZC18qDGYKKmXPU0V5N2Y/NL4diPUBJG6uKuFqK8kXG+J7ns/Ebkf2i/t589SoVgrowccS/sz41yLTTPgOI/x4x1vWYP2jyCqfiDB7MRtzmMSSasz6VpyZjVcOPaDcz5aEzOWNDsmhMSDFjRB0olxze3+8Jvi6ihmRrPfUV7Lqe1MHJgN8+D2BPf2GMtxOVqcd/YwsRqZmxP8A4mXGcTkQXYM0ptR5P769ywBQMUgMTUxE3132YxjtxM7zAPqarED83CepfMN7TfowOH6NwGiyiuJuqyPXP+YTYBHc5BA8e/A+wiWV8eoDY8Gas7cyzMn1cQPsQgqeRNIbQecxWuzNG7u+VfQEP/owsVNiLkLlh7Ec8TOZof8A9CywYCbAPRm8V112IKUEjiHaX3Bop+Z0x+K4nfRiRb3GzCaEH2kXBxR8Hwx4mtf/AJkmnG4ATLpQ00+PYK8GZkcgUs0ZKPkRgQTyOI1bjZjkWRZuaUAnJkcilEch13L16mccGaUhXB9gwt+IjEgox+T18QkAtY4IgtXYFuABLADWOLoz9rCvc91/EWwOewYvRmMHi52DcW6g6l2PBhhNVL4lzfMuYKDMjHLnUfJmnSq8AeDHehFzBzyKI+e472Qa5EcirPoTFzko+1IiPwMVci5mXicrk7mDJuVTc3ElDPTKb7oQ1kxkiwwAmN9yGzySeJu5H8GZACdwi01rATREWfwfcB5M9RfJmVwgBMGZCe59QV3Mmaj3M+a7mhwEt9VhyepjXb5PjKrFKH+I+5cyWDY7hc9ibr4PsRW2Pjb4MbcPzQ0YX3ttvmuZnTuaLMRamXQLcEWIz7S3FgmJlWwQeCKmRWVmdK5FRW3ICe4psGY/jowlku/mKYTyonuCWN0uEwmag7qHoQgCNlqZMtzBpGyMGcf2WY8Yxj+YvlvAyunR4+J9XDlFOKMyaRu8TWPgxi+M06kTIeLBmDLvxiZlIso1GUMwJAqL/wALmxwffxFexRq59XkmEjmqvfY9S3Kkiib5FwZAoog9zsgj33NwB5hIdai9yx7iG5ZEBMuEwv7jZ4+WDHky9Ch8mafQbaY/7MVVQUsJgly4xheNGi5siHhoutB4yJDh0ebo7DE0WXExKOrrCrj9yEQA43Dc7fcdVyg1DkyYPpgi0Hv3UNEA9qRxUpbHcBKn/wBGMQ681cBujweIeQGFcTG9jmLx7l3FsS7hyg5Ng9DuHIBHzCZcrsNuNSb9xNJlfs/6mLQKKLAD/wAmLjROl5lwmXzLly47TdGhhh8LlyIeGMTW5Vg1eJ/34xF/Sc7dy3DgwOCBkn6HKrocWYbA17Zk0+7lRU/T5gDxCr+8bAj3Ut1rhuB8THko8gwiqKv76qDL/B/1PrkdKx/xDnzesR/yYGzN3U+llY2BP0rn9zf+YmmxrxugTEvS3/ebjL8XCYPJNCO8LRo0MP23ATA7fMGVx7gzP8mfqH+YM7GfWJm+/U3D+mWP6RA38Cb2m4n3Ll+bl+CfQnUuXHbiO3MuNGh/+AHwDAYD4Bly/Fy5cuXL8XUJuAgmEzdN0yvQm65xHjRofPvwIPPx4HkeB7+weB7/ALw9T2Jk6i9Q+c3XgT//xAAkEQACAgICAgICAwAAAAAAAAAAAQIRECExQRIgA1ETQDBhcf/aAAgBAgEBPwD5V6JCT+h/4Uxetl58kSjY40UR+P7NIvDSERevVEpUSm2NvDQo0Nl5fDI8UJ0XQpekpbLHlvDZeGRY98EZKqaFOJ5ofyI/JrgkVIt4Yxp9Mtoss8t8CdN6IsaY0J4ekJdvElhjbQ5NHkmqbFG+DwXbHBM8f7LoWx2maxdvPOLsdWzx7fAoxnLS0jjSLOsrW0Niw13h4XCT57F20VtXwTbk6IpRikdvPd5YstEusJ1JoTobsit+r69KzHZOFDGkpXeFxQvX690ifGJQspr+PoSEsS4zQ4ocCmhxN4plFM8WKPpLgf6MuP0FiXGP/8QAIREBAAICAwACAwEAAAAAAAAAAQARAhASICEwQQMxQFH/2gAIAQMBAT8Aweikcj/do9a6cWYtQylzL8n0T1laGORGO7jDG4AQ0MyyvyB2GVcToHnUO2RTrH3ycWcWcZwmJKxjj0GUMqVMsqYo6xyqYtx1iWx0OiE4ykY5VObrjEdYbxKL34aqoX5OUcnEn796uMxK2P10SP1PryYgR9V+MdpZcq4EX5GGWhUqtfcfkZjoyqWPyLF1j0ucpcvr5LJfQh/CfwOjX//Z" alt="Helado de vainilla">
+      <p>Suave, delicada y elaborada con vainilla real.</p>
+    </section>
+
+    <section id="chocolate" class="sabor">
+      <h3>Chocolate Intenso</h3>
+      <img src="https://www.bing.com/th/id/OIP.kQl6HGArCFLhhhgrIBCfgwHaHa?w=183&h=211&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2" alt="Helado de chocolate">
+      <p>Perfecto para los amantes del chocolate oscuro y cremoso.</p>
+    </section>
+
+    <section id="mango" class="sabor">
+      <h3>Mango Tropical</h3>
+      <img src="data:image/webp;base64,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" alt="Helado de mango">
+      <p>Refrescante como una tarde de verano, con mango 100% natural.</p>
+    </section>
+
+    <section id="fresa" class="sabor">
+      <h3>Fresa Natural</h3>
+      <img src="https://i0.wp.com/yoyomismaymiscosas.com/wp-content/uploads/2020/07/Helado-de-Fresas.png?fit=1280%2C720&ssl=1" alt="Helado de fresa">
+      <p>¡Fresas reales en cada bocado! Un favorito de todos.</p>
+    </section>
+
+    <section id="promociones" class="seccion">
+      <h2>Promociones Dulces</h2>
+      <ul>
+        <li>🎉 <strong>2x1</strong> en copas los viernes.</li>
+        <li>🎓 <strong>15% de descuento</strong> para estudiantes con carnet.</li>
+        <li>🎁 ¡Colecciona sellos y gana un helado gratis!</li>
+      </ul>
+    </section>
+
+    <section id="nosotros" class="seccion">
+      <h2>Sobre Nosotros</h2>
+      <p>Yogufrut nació para brindar sonrisas en forma de helado. Elaboramos sabores artesanales desde 2003, con ingredientes frescos y mucho cariño.</p>
+    </section>
+
+    <section id="contacto" class="seccion">
+      <h2>Contáctanos</h2>
+      <p>¿Tienes una idea dulce o quieres saludarnos?</p>
+      <p>💌 <a href="mailto:info@yogufrut.com">info@yogufrut.com</a></p>
+    </section>
+  </main>
+</body>
+</html>
